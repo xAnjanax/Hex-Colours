@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap'); 
+
+body
+{
+    font-family: 'Bitter', serif; 
+}
+
+.container
+{
+    /* border: 1px solid black;  */
+
+    width: 95%; 
+    height: 100vh;
+    display: flex; /* flexbox stuff */ 
+    justify-content: center;
+    align-items: center;
+}
+
+.Hex-Colours
+{
+    /* border: 1px solid black;  */
+    text-align: center;
+}
+
+.Hex-Colours h1
+{
+    font-size: 2rem; /* 1 rem == 16 pixels, 2 rem == 32 pixels */ 
+    text-transform: uppercase;
+    animation: changeColour 5s infinite alternate;
+}
+
+.Hex-Colours h2
+{
+    /* border: 1px solid black; */
+
+    font-size: 2rem;
+    margin-top: 15%;
+}
+
+@keyframes changeColour
+{
+    0%
+    {
+        color: indigo;
+    }
+    20%
+    {
+        color: blue;
+    }
+    40%
+    {
+        color: green;
+    }
+    60%
+    {
+        color: yellow;
+    }
+    80%
+    {
+        color: orange;
+    }
+    100%
+    {
+        color: red;
+    }
+}
+
+@media(max-width:480px)
+{
+    .Hex-Colours h1
+    {
+        font-size: 1.5rem;
+    }
+    .Hex-Colours h2
+    {
+        font-size: 1.5rem;
+    }
+}
