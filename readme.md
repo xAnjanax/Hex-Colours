@@ -1,4 +1,4 @@
-# Hex Colours 
+# Hexadecimal Codes of Colours 
 
 ## Description 
 
